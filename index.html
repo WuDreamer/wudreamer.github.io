@@ -327,7 +327,7 @@
       </h5>
       <p class="main-left--subtitle">
         <span>文章数目：</span>
-        <span>1 篇</span>
+        <span>0 篇</span>
       </p>
       <p class="main-left--subtitle">
         <span>最近动态：</span>
@@ -335,7 +335,7 @@
       </p>
       <p class="main-left--subtitle">
         <span>上线时间：</span>
-        <span>766天</span>
+        <span>2024-03-22</span>
       </p>
       <p class="main-left--subtitle">
         <span>当前版本：</span>
@@ -452,7 +452,7 @@
       <i class="iconfont icon-gonggao"></i>
     </div>
     <div class="main-right--content">
-      Hello~大噶好。唔系可乐爱宅着，欢迎你们来到我的博客小站，希望能在这里收获到有用的东西哦！ 
+      Hello~大家好。我是WuDreamer，欢迎你们来到我的博客小站，希望能在这里收获到有用的东西哦！ 
     </div>
   </div>
 
@@ -474,7 +474,7 @@
   <div class="main-right--site">
     <div class="main-right--power">
       <p>Power By <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a>.</p>
-      <p>Theme：<a target="_blank" rel="noopener" href="https://github.com/Aizener/hexo-theme-cola">Cola.</a></p>
+      <p>Theme：<a target="_blank" rel="noopener" href="https://wudreamer.github.io/">Wudreamer</a></p>
     </div>
     <p class="main-right--refer"><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/#/Integrated/index">蜀ICP备2022005384号-1</a> </p>
   </div>
@@ -504,7 +504,11 @@
   }
 
   setOperateItem()
-  const musics = JSON.parse(`[{"name":"安河桥","artist":"宋冬野","url":"http://ting6.yymp3.net:82/new25/songdongye/11.mp3","cover":"https://img2.baidu.com/it/u=1260056724,1076343118&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500"},{"name":"卡布达","artist":"暂无","url":"music/kabuda.mp3","cover":"https://img2.baidu.com/it/u=705831265,2862720033&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500"}]`)
+  const musics = JSON.parse(`[
+  {"name":"安河桥","artist":"宋冬野","url":"http://ting6.yymp3.net:82/new25/songdongye/11.mp3","cover":"https://img2.baidu.com/it/u=1260056724,1076343118&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500"},
+  {"name":"卡布达","artist":"暂无","url":"music/kabuda.mp3","cover":"https://img2.baidu.com/it/u=705831265,2862720033&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500"},
+  {"name":"DAN DAN 心魅かれてく","artist":"FIELD OF VIEW","url":"//s3.music.126.net/web/s/pt_frame_index_190ae19d250f445c66cc7d4903271624.js?190ae19d250f445c66cc7d4903271624","cover":"https://p2.music.126.net/QMHwiQiwwZbzLiRLRhvulw==/18627925999759361.jpg?param=130y130"}
+  ]`)
   const ap = new APlayer({
     container: document.querySelector('#aplayer'),
     audio: musics,
